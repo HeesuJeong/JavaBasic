@@ -1,0 +1,20 @@
+package edu.ssafy.chap05.hw;
+
+
+//import edu.ssafy.chap04.TV;
+
+public class ProductTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ProductMgr p=new ProductMgr();
+		p.add(new TV(111, "type1", 10000, 10, 10, "평면"));
+		p.add(new TV(122, "LG", 20011, 100, 11, "굴곡"));
+		p.add(new TV(222,"Samsung",222,5,12,"평면"));
+		p.add(new TV(333, "type2", 99999, 300, 10, "평면"));
+		p.add(new TV(999, "type3", 30000, 10, 12, "굴곡"));
+
+		
+	}
+
+}

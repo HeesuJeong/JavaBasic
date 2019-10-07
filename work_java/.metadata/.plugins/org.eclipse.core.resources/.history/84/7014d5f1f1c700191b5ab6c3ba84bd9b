@@ -1,0 +1,10 @@
+package 보충;
+
+public class 안전영역 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

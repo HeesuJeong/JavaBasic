@@ -1,0 +1,22 @@
+package edu.ssafy.chap05.hw;
+
+public class ProductTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ProductMgr p=new ProductMgr();
+		p.add(new TV(111, "type1", 10000, 10, 10, "평면"));
+		p.add(new TV(122, "LG", 20011, 100, 11, "굴곡"));
+		p.add(new TV(222,"Samsung",222,5,12,"평면"));
+		p.add(new TV(333, "type2", 99999, 300, 10, "평면"));
+		p.add(new TV(999, "type3", 30000, 10, 12, "굴곡"));
+
+
+		p.add(new Refrigerator(12345, "aaa", 10000, 10, 100));
+		p.add(new Refrigerator(2000, "bbb", 9999, 5, 90));
+		p.add(new Refrigerator(9090, "ccc", 98943, 20, 200));
+		p.add(new Refrigerator(3000, "heesu", 100000, 100, 1000));
+		p.add(new Refrigerator(91000, "minhae", 30303, 2, 100));
+	}
+
+}

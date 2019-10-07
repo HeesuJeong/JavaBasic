@@ -1,0 +1,18 @@
+package 보충;
+
+public class 치즈도둑 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	}
+	static class Point{
+		int r, c;
+		public Point(int r, int c) {
+			// TODO Auto-generated constructor stub
+			this.r = r;
+			this.c = c;
+		}
+	}
+
+}
